@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LeakCanaryiOS_Example', :exclusive => true do
+  pod "LeakCanaryiOS", :path => "../"
+end
+
+target 'LeakCanaryiOS_Tests', :exclusive => true do
+  pod "LeakCanaryiOS", :path => "../"
+
+  pod 'Kiwi'
+end
