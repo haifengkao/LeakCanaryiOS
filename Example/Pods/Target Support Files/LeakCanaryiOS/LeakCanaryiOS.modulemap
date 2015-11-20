@@ -1,0 +1,6 @@
+framework module LeakCanaryiOS {
+  umbrella header "LeakCanaryiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

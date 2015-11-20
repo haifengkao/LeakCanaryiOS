@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - LeakCanaryiOS (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - LeakCanaryiOS (from `../`)
+
+EXTERNAL SOURCES:
+  LeakCanaryiOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  LeakCanaryiOS: 91e9109fcfa64e07f935b8565bb9227c37acdf1c
+
+COCOAPODS: 0.39.0

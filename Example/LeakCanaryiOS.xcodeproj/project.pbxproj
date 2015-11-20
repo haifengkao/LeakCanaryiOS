@@ -19,10 +19,10 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		835F5B34778CA23DEE67902D /* Pods_LeakCanaryiOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D19C1E07C6E6859482653C /* Pods_LeakCanaryiOS_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EDF2694A09044625C163D790 /* Pods_LeakCanaryiOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAFDD43E4DA07152A74590C /* Pods_LeakCanaryiOS_Example.framework */; };
+		F92BF95E1BFF162E00E31299 /* LeakCanarySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF95D1BFF162E00E31299 /* LeakCanarySpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		620A8694825DEEC166A1876E /* Pods-LeakCanaryiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71D7CC8EF652A9222E742297 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		78D8054D4AFEF3F97FADEBB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9373EA660C1D92CF93AC5011 /* Pods-LeakCanaryiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F92BF95D1BFF162E00E31299 /* LeakCanarySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakCanarySpec.m; sourceTree = "<group>"; };
 		FFAFDD43E4DA07152A74590C /* Pods_LeakCanaryiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCanaryiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,8 +167,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				F92BF95D1BFF162E00E31299 /* LeakCanarySpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -400,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				F92BF95E1BFF162E00E31299 /* LeakCanarySpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
