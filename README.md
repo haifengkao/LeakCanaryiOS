@@ -9,6 +9,8 @@
 Do you want to know if there is a memory leak in your XCTest?
 This is the tool for you.
 
+
+Motivated by [Leak Canary](https://github.com/square/leakcanary) and [HeapInspector](https://github.com/tapwork/HeapInspector-for-iOS).
 ## Usage
 Add the follow codes to your test case
 ```objc
