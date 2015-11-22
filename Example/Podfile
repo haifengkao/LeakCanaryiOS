@@ -7,6 +7,6 @@ end
 
 target 'LeakCanaryiOS_Tests', :exclusive => true do
   pod "LeakCanaryiOS", :path => "../"
-
-  pod 'Kiwi'
+  pod 'Specta'
+  pod 'Expecta'
 end

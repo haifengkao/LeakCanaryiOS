@@ -40,7 +40,7 @@
 		250A569AAAB1135004FE722E /* LeakCanaryiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeakCanaryiOS.podspec; path = ../LeakCanaryiOS.podspec; sourceTree = "<group>"; };
 		5366A58D40B2830907E660A4 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		570D9EC9FA41C8EFB9DEB996 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* LeakCanaryiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LeakCanaryiOS.app; path = LeakCanaryiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* LeakCanaryiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakCanaryiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -119,7 +119,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* LeakCanaryiOS.app */,
+				6003F58A195388D20070C39A /* LeakCanaryiOS_Example.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -213,7 +213,7 @@
 			);
 			name = LeakCanaryiOS_Example;
 			productName = LeakCanaryiOS;
-			productReference = 6003F58A195388D20070C39A /* LeakCanaryiOS.app */;
+			productReference = 6003F58A195388D20070C39A /* LeakCanaryiOS_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* LeakCanaryiOS_Tests */ = {

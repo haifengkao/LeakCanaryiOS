@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-LeakCanaryiOS_Tests/LeakCanaryiOS.framework"
-  install_framework "Pods-LeakCanaryiOS_Tests/Kiwi.framework"
+  install_framework "Pods-LeakCanaryiOS_Tests/Expecta.framework"
+  install_framework "Pods-LeakCanaryiOS_Tests/Specta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-LeakCanaryiOS_Tests/LeakCanaryiOS.framework"
-  install_framework "Pods-LeakCanaryiOS_Tests/Kiwi.framework"
+  install_framework "Pods-LeakCanaryiOS_Tests/Expecta.framework"
+  install_framework "Pods-LeakCanaryiOS_Tests/Specta.framework"
 fi

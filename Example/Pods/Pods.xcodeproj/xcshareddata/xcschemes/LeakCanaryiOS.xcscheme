@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '07D3912C84279F6B3F1A2165'
+               BlueprintIdentifier = 'CF9D55C91FE690EE84307E76'
                BlueprintName = 'LeakCanaryiOS'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LeakCanaryiOS.framework'>
