@@ -42,7 +42,7 @@ context(@"has leaked objects", ^{
             Foo* foo = [Foo new];
             NSSet* leakedObjects = [LeakCanary endSnapShot];
             // it's strange that the leakedObjects.count is always 0 on travis
-            expect(leakedObjects.count == 0 <= 1).to.beTruthy();
+            expect(leakedObjects.count <= 1).to.beTruthy();
             foo = nil;
         }
         NSSet* leakedObjects = [LeakCanary endSnapShot];
