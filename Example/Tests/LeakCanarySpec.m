@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Hai Feng Kao. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "LeakCanary.h"
 @interface Foo : NSObject
 @end
