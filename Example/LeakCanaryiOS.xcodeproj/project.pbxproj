@@ -19,9 +19,9 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		835F5B34778CA23DEE67902D /* Pods_LeakCanaryiOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D19C1E07C6E6859482653C /* Pods_LeakCanaryiOS_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EDF2694A09044625C163D790 /* Pods_LeakCanaryiOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAFDD43E4DA07152A74590C /* Pods_LeakCanaryiOS_Example.framework */; };
+		EDD12E5918E6722403653794 /* Pods_LeakCanaryiOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD2361931DD8F470E3C4CD /* Pods_LeakCanaryiOS_Example.framework */; };
+		F32CCC01738D2FE152A114B0 /* Pods_LeakCanaryiOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ECA2C2AEA903FC23D7C3DA /* Pods_LeakCanaryiOS_Tests.framework */; };
 		F92BF95E1BFF162E00E31299 /* LeakCanarySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF95D1BFF162E00E31299 /* LeakCanarySpec.m */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18D19C1E07C6E6859482653C /* Pods_LeakCanaryiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCanaryiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B5AD9AAF442AA5DEE834D5 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		12ECA2C2AEA903FC23D7C3DA /* Pods_LeakCanaryiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCanaryiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		250A569AAAB1135004FE722E /* LeakCanaryiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeakCanaryiOS.podspec; path = ../LeakCanaryiOS.podspec; sourceTree = "<group>"; };
-		5366A58D40B2830907E660A4 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26641168628317E1DEB3BBDE /* Pods-LeakCanaryiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4A2359F84ABA15B7390D354D /* Pods-LeakCanaryiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		570D9EC9FA41C8EFB9DEB996 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LeakCanaryiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakCanaryiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,13 +60,11 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		620A8694825DEEC166A1876E /* Pods-LeakCanaryiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71D7CC8EF652A9222E742297 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		78D8054D4AFEF3F97FADEBB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9373EA660C1D92CF93AC5011 /* Pods-LeakCanaryiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		94FD2361931DD8F470E3C4CD /* Pods_LeakCanaryiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCanaryiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A3E06697351D2E47062639 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakCanaryiOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F92BF95D1BFF162E00E31299 /* LeakCanarySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakCanarySpec.m; sourceTree = "<group>"; };
-		FFAFDD43E4DA07152A74590C /* Pods_LeakCanaryiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakCanaryiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EDF2694A09044625C163D790 /* Pods_LeakCanaryiOS_Example.framework in Frameworks */,
+				EDD12E5918E6722403653794 /* Pods_LeakCanaryiOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,24 +86,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				835F5B34778CA23DEE67902D /* Pods_LeakCanaryiOS_Tests.framework in Frameworks */,
+				F32CCC01738D2FE152A114B0 /* Pods_LeakCanaryiOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A169BD120901C68D9501441 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9373EA660C1D92CF93AC5011 /* Pods-LeakCanaryiOS_Example.debug.xcconfig */,
-				620A8694825DEEC166A1876E /* Pods-LeakCanaryiOS_Example.release.xcconfig */,
-				71D7CC8EF652A9222E742297 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */,
-				5366A58D40B2830907E660A4 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +101,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				1A169BD120901C68D9501441 /* Pods */,
+				AD14722496BBB4B02FBFCF09 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FFAFDD43E4DA07152A74590C /* Pods_LeakCanaryiOS_Example.framework */,
-				18D19C1E07C6E6859482653C /* Pods_LeakCanaryiOS_Tests.framework */,
+				94FD2361931DD8F470E3C4CD /* Pods_LeakCanaryiOS_Example.framework */,
+				12ECA2C2AEA903FC23D7C3DA /* Pods_LeakCanaryiOS_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,6 +182,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		AD14722496BBB4B02FBFCF09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A2359F84ABA15B7390D354D /* Pods-LeakCanaryiOS_Example.debug.xcconfig */,
+				26641168628317E1DEB3BBDE /* Pods-LeakCanaryiOS_Example.release.xcconfig */,
+				05B5AD9AAF442AA5DEE834D5 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */,
+				D3A3E06697351D2E47062639 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LeakCanaryiOS_Example" */;
 			buildPhases = (
-				301EA2AA19CD22B01CCA2A5A /* Check Pods Manifest.lock */,
+				2CC80DD8C2A106BE5972C69D /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5AFCFDA609D885BAE6BE46DB /* Embed Pods Frameworks */,
-				35EE894207111EEEA6F9484B /* Copy Pods Resources */,
+				AF0D1A0583D31E18F9189755 /* [CP] Embed Pods Frameworks */,
+				0913D66C34B53EC81DDD0154 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LeakCanaryiOS_Tests" */;
 			buildPhases = (
-				72F2E16F43715CA6ECAAA27B /* Check Pods Manifest.lock */,
+				E9028805E18533DAC72E23ED /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				2D043F6D7471026D2945826C /* Embed Pods Frameworks */,
-				66F36FAB2ABCD0B4101739BF /* Copy Pods Resources */,
+				AC6EB0B1489C1FA7045E889F /* [CP] Embed Pods Frameworks */,
+				6B1265F558B1C176F3998391 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,44 +293,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D043F6D7471026D2945826C /* Embed Pods Frameworks */ = {
+		0913D66C34B53EC81DDD0154 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		301EA2AA19CD22B01CCA2A5A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		35EE894207111EEEA6F9484B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,29 +308,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5AFCFDA609D885BAE6BE46DB /* Embed Pods Frameworks */ = {
+		2CC80DD8C2A106BE5972C69D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		66F36FAB2ABCD0B4101739BF /* Copy Pods Resources */ = {
+		6B1265F558B1C176F3998391 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,19 +338,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		72F2E16F43715CA6ECAAA27B /* Check Pods Manifest.lock */ = {
+		AC6EB0B1489C1FA7045E889F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCanaryiOS_Tests/Pods-LeakCanaryiOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0D1A0583D31E18F9189755 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakCanaryiOS_Example/Pods-LeakCanaryiOS_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9028805E18533DAC72E23ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -466,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -508,13 +508,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9373EA660C1D92CF93AC5011 /* Pods-LeakCanaryiOS_Example.debug.xcconfig */;
+			baseConfigurationReference = 4A2359F84ABA15B7390D354D /* Pods-LeakCanaryiOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeakCanaryiOS/LeakCanaryiOS-Prefix.pch";
 				INFOPLIST_FILE = "LeakCanaryiOS/LeakCanaryiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -523,13 +524,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 620A8694825DEEC166A1876E /* Pods-LeakCanaryiOS_Example.release.xcconfig */;
+			baseConfigurationReference = 26641168628317E1DEB3BBDE /* Pods-LeakCanaryiOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeakCanaryiOS/LeakCanaryiOS-Prefix.pch";
 				INFOPLIST_FILE = "LeakCanaryiOS/LeakCanaryiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -538,7 +540,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71D7CC8EF652A9222E742297 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */;
+			baseConfigurationReference = 05B5AD9AAF442AA5DEE834D5 /* Pods-LeakCanaryiOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -561,7 +563,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5366A58D40B2830907E660A4 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */;
+			baseConfigurationReference = D3A3E06697351D2E47062639 /* Pods-LeakCanaryiOS_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

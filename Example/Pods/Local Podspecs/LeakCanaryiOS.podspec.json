@@ -17,9 +17,12 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "LeakCanaryiOS": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "exclude_files": "Pod/Classes/NSObject+HeapInspector.{h,m}",
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "requires_arc": false,
+      "source_files": "Pod/Classes/NSObject+HeapInspector.{h,m}"
+    }
+  ]
 }

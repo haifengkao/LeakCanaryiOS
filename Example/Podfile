@@ -1,11 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 use_frameworks!
 
-target 'LeakCanaryiOS_Example', :exclusive => true do
+target 'LeakCanaryiOS_Example' do
   pod "LeakCanaryiOS", :path => "../"
 end
 
-target 'LeakCanaryiOS_Tests', :exclusive => true do
+target 'LeakCanaryiOS_Tests' do
   pod "LeakCanaryiOS", :path => "../"
   pod 'Specta'
   pod 'Expecta'
