@@ -1,8 +1,8 @@
 PODS:
   - Expecta (1.0.5)
-  - LeakCanaryiOS (0.1.0):
-    - LeakCanaryiOS/no-arc (= 0.1.0)
-  - LeakCanaryiOS/no-arc (0.1.0)
+  - LeakCanaryiOS (0.2.0):
+    - LeakCanaryiOS/no-arc (= 0.2.0)
+  - LeakCanaryiOS/no-arc (0.2.0)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  LeakCanaryiOS: 8312be27ae1fe96e255e66864b982fa30b84595f
+  LeakCanaryiOS: ac41e14e5bcb9e919eb0298333e9df7487219c83
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 PODFILE CHECKSUM: bd7eb680f0e78abbf83bea01c0b8904babf3aa65
