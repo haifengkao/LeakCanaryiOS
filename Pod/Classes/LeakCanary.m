@@ -25,8 +25,8 @@
 
 + (NSSet*)endSnapShot
 {
-    NSSet* set = [HINSPHeapStackInspector recordedHeap];
     [NSObject endSnapshot];
+    NSSet* set = [HINSPHeapStackInspector recordedHeap];
     return set;
 }    
 
