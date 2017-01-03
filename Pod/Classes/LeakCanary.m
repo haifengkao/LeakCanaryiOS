@@ -9,6 +9,7 @@
 
 #import "HINSPHeapStackInspector.h"
 #import "LeakCanary.h"
+#import "NSObject+HeapInspector.h"
 
 @interface LeakCanary()
 @end
@@ -17,13 +18,13 @@
 
 + (void)beginSnapShot:(NSArray*)array
 {
-    [HINSPHeapStackInspector setClassPrefixArray:array];
+    [NSObject addClassPrefixesToRecord:array];
     [HINSPHeapStackInspector performHeapShot];
 }
 
 + (NSSet*)endSnapShot
 {
-    NSSet* set = [HINSPHeapStackInspector recordedHeapStack];
+    NSSet* set = [HINSPHeapStackInspector recordedHeap];
     return set;
 }    
 

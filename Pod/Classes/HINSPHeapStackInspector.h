@@ -8,18 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-
-
-typedef void (^RMHeapEnumeratorBlock)(__unsafe_unretained id object, __unsafe_unretained Class actualClass);
+typedef void (^RMHeapEnumeratorBlock)(__unsafe_unretained id object, BOOL *stop);
 
 @interface HINSPHeapStackInspector : NSObject
 
 + (void)performHeapShot;
-+ (void)setClassPrefixArray:(NSArray *)classPrefixArray;
 + (void)enumerateLiveObjectsUsingBlock:(RMHeapEnumeratorBlock)block;
-+ (NSSet *)heapStack;
-+ (NSSet *)recordedHeapStack;
-+ (const char* const *)classPrefixArray;
++ (NSSet *)heap;
++ (NSSet *)recordedHeap;
 + (id)objectForPointer:(NSString *)pointer;
-
++ (void)reset;
 @end

@@ -31,9 +31,16 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'LeakCanaryiOS' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+    #'LeakCanaryiOS' => ['Pod/Assets/*.png']
+  #}
+  non_arc_files = 'Pod/Classes/NSObject+HeapInspector.{h,m}'
+  s.exclude_files = non_arc_files
+  s.requires_arc = true
+  s.subspec 'no-arc' do |sna|
+    sna.requires_arc = false
+    sna.source_files = non_arc_files
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
