@@ -1,6 +1,6 @@
 {
   "name": "LeakCanaryiOS",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "Memory leak detection in iOS unit test cases",
   "description": "Memory leak detection in XCTest, no problem!",
   "homepage": "https://github.com/haifengkao/LeakCanaryiOS",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/haifengkao/LeakCanaryiOS.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "7.0"
