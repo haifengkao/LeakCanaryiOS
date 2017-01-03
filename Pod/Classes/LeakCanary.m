@@ -19,12 +19,14 @@
 + (void)beginSnapShot:(NSArray*)array
 {
     [NSObject addClassPrefixesToRecord:array];
+    [NSObject beginSnapshot];
     [HINSPHeapStackInspector performHeapShot];
 }
 
 + (NSSet*)endSnapShot
 {
     NSSet* set = [HINSPHeapStackInspector recordedHeap];
+    [NSObject endSnapshot];
     return set;
 }    
 
