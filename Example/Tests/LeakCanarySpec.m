@@ -31,6 +31,9 @@ context(@"has leaked objects", ^{
             NSSet* leakedObjects = [LeakCanary endSnapShot];
             // it's strange that the leakedObjects.count is always 0 on travis
             expect(leakedObjects.count <= 1).to.beTruthy();
+            NSSet* leakedObjects2 = [LeakCanary endSnapShot];
+            
+            expect(leakedObjects).to.equal(leakedObjects2); // the result should be idempotent
             dummyView = nil;
         }
         NSSet* leakedObjects = [LeakCanary endSnapShot];
